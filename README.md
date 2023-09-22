@@ -1,7 +1,7 @@
 ## Name: Deepika S
 ## Register Number: 212222230028
 # Experiment 05 Implementation of flipflops using verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
+## AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
@@ -116,11 +116,11 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 6.Give the respective inputs for timing diagram and obtain the results.
 ### PROGRAM 
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Deepika S
 RegisterNumber:  212222230028
-*/
+```
 ```
 module flipflop(s,r,Q,Qbar,clk);
 input s,r,clk;
@@ -135,16 +135,10 @@ end
 endmodule
 ```
 ### RTL LOGIC FOR FLIPFLOPS 
-
-
-
-
-
-
-
-
+![rtl viewer 5th filpflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/25082c89-fb99-4589-bdf9-483a6480f64e)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
+
 
 
 
