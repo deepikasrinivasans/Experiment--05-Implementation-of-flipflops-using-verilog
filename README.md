@@ -103,7 +103,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
+## Procedure
 1.Create a project with required entities.
 
 2.Create a module along with respective file name.
@@ -115,7 +115,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 5.Create university program(VWF) for getting timing diagram.
 
 6.Give the respective inputs for timing diagram and obtain the results.
-### PROGRAM 
+## PROGRAM 
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Deepika S
@@ -151,23 +151,17 @@ end
 endmodule
 ```
 
-### RTL LOGIC FOR FLIPFLOPS 
-## SR Flipflop
+## RTL LOGIC FOR FLIPFLOPS 
+### SR Flipflop
 ![rtl viewer 5th filpflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/25082c89-fb99-4589-bdf9-483a6480f64e)
-## JK Flipflop
+### JK Flipflop
 ![jk rtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6a9419ca-c926-4c04-829e-427bce1bd866)
-### Truth Table:
-### Output waveform:
-## SR Flipflop
+## Truth Table:
+## Output waveform:
+### SR Flipflop
 ![Screenshot 2023-09-22 090934](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6c84622c-078a-46ec-8530-f5e0ecb04ca0)
-## JK Flipflop
-
+### JK Flipflop
 ![jk waveform](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/7e81dba9-db85-43e2-9c2c-7ff05a93d7d4)
-
-
-
-
-
 
 
 
