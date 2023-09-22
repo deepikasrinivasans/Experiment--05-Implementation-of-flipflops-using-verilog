@@ -121,6 +121,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Deepika S
 RegisterNumber:  212222230028
 ```
+## SR Flipflop
 ```
 module flipflop(s,r,Q,Qbar,clk);
 input s,r,clk;
@@ -134,10 +135,34 @@ Qbar=r|(Qbar&(~s));
 end
 endmodule
 ```
+## JKFlipflop
+```
+module jkflipflop(j,k,clk,q,qbar);
+input j,k,clk;
+output reg q;
+output reg qbar;
+initial q=0;
+initial qbar=1;
+always @(posedge clk)
+begin
+q=(j&(~q))|((~k)&q);
+qbar=((~j)&q)|(k &(~q));
+end 
+endmodule
+```
+
 ### RTL LOGIC FOR FLIPFLOPS 
+## SR Flipflop
 ![rtl viewer 5th filpflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/25082c89-fb99-4589-bdf9-483a6480f64e)
+## JK Flipflop
+![jk rtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6a9419ca-c926-4c04-829e-427bce1bd866)
+### Truth Table:
+### Output waveform:
+## SR Flipflop
+![Screenshot 2023-09-22 090934](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6c84622c-078a-46ec-8530-f5e0ecb04ca0)
+## JK Flipflop
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+![jk waveform](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/7e81dba9-db85-43e2-9c2c-7ff05a93d7d4)
 
 
 
@@ -146,5 +171,7 @@ endmodule
 
 
 
+### RESULT:
+All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
 
-### RESULTS 
+
