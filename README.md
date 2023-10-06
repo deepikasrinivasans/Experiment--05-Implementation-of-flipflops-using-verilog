@@ -183,6 +183,9 @@ endmodule
 ### JK Flipflop
 ![jk waveform](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/7e81dba9-db85-43e2-9c2c-7ff05a93d7d4)
 ### D Flipflop
+![waveformdflipflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/5b82ed14-8f97-42b3-b7af-32f7bc755588)
+## T Flipflop
+
 
 ### RESULT:
 All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
