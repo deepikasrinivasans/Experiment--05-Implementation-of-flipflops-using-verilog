@@ -150,20 +150,39 @@ qbar=((~j)&q)|(k &(~q));
 end 
 endmodule
 ```
+## D Flipflop
+```
+module EXDflipflop(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
+## T Flipflop
+```
+```
 
 ## RTL LOGIC FOR FLIPFLOPS 
 ### SR Flipflop
 ![rtl viewer 5th filpflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/25082c89-fb99-4589-bdf9-483a6480f64e)
 ### JK Flipflop
 ![jk rtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6a9419ca-c926-4c04-829e-427bce1bd866)
+### D Flipflop
+![Dflipfloprtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/da1019aa-0c87-4e52-b193-88174afd3267)
 ## Truth Table:
 ## Output waveform:
 ### SR Flipflop
 ![Screenshot 2023-09-22 090934](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6c84622c-078a-46ec-8530-f5e0ecb04ca0)
 ### JK Flipflop
 ![jk waveform](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/7e81dba9-db85-43e2-9c2c-7ff05a93d7d4)
-
-
+### D Flipflop
 
 ### RESULT:
 All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
