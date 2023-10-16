@@ -188,6 +188,8 @@ endmodule
 ![jk rtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/6a9419ca-c926-4c04-829e-427bce1bd866)
 ### D Flipflop
 ![Dflipfloprtlviewer](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/da1019aa-0c87-4e52-b193-88174afd3267)
+### T Flipflop
+![de ex5](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/9c8ef8a5-d506-4861-9523-e99c9b101ad9)
 ## Truth Table:
 ## Output waveform:
 ### SR Flipflop
@@ -197,7 +199,7 @@ endmodule
 ### D Flipflop
 ![waveformdflipflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/5b82ed14-8f97-42b3-b7af-32f7bc755588)
 ## T Flipflop
-![de ex5](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/9c8ef8a5-d506-4861-9523-e99c9b101ad9)
+![waveform tflipflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/f0a31196-9b36-4cb8-a8d4-725de6907ae3)
 ### RESULT:
 All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
 
