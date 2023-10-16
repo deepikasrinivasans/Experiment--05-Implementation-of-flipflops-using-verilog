@@ -167,6 +167,18 @@ endmodule
 ```
 ## T Flipflop
 ```
+module t(T,clk,q,qbar);
+input T,clk;
+output reg q;
+output reg qbar;
+initial q=0;
+initial qbar=1;
+always @ (posedge clk)
+begin
+q=(T&(~q))|((~T)&q);
+qbar=(~q);
+end
+endmodule
 ```
 
 ## RTL LOGIC FOR FLIPFLOPS 
@@ -185,8 +197,7 @@ endmodule
 ### D Flipflop
 ![waveformdflipflop](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/5b82ed14-8f97-42b3-b7af-32f7bc755588)
 ## T Flipflop
-
-
+![de ex5](https://github.com/deepikasrinivasans/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119393935/9c8ef8a5-d506-4861-9523-e99c9b101ad9)
 ### RESULT:
 All the flipflops are implemented using verilog and their functionality has been validated using their functional tables.
 
