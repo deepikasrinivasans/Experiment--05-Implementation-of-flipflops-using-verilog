@@ -1,6 +1,7 @@
 ## Name: Deepika S
 ## Register Number: 212222230028
-# Experiment 05 Implementation of flipflops using verilog
+# Ex 05 Implementation of flipflops using verilog
+## Date: 06.10.2023
 ## AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
